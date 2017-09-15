@@ -6,7 +6,7 @@ var options = {
 };
 
 var pgp = require('pg-promise')(options);
-var connectionString = 'postgres://localhost:5432/mealplanner';
+var connectionString = 'postgres://cfnjynvibfomvm:dd35fe0b6c0e79220048ac82bab24aa2ad438006076df2dd8319f69f482500f3@ec2-54-221-212-208.compute-1.amazonaws.com:5432/denr3qsd4i8r2n';
 var db = pgp(connectionString);
 
 module.exports = {
